@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+   <!-- Dashboard Container -->
+    <div class="dashboard-container">
+        
+        <!-- Sidebar Navigation -->
+        <aside class="sidebar">
+            <h2 class="logo">DAYMARK</h2>
+            <nav class="nav-links">
+                <a href="Home.html" class="active">HOME</a>
+                <a href="Schedule.html">SCHEDULE</a>
+                <a href="Expenses.html">EXPENSES</a>
+                <a href="Summary.html">SUMMARY</a>
+            </nav>
+        </aside>
+
+        <!-- Main Content Area -->
+        <main class="main-content">
+            
+            <!-- Top Header -->
+            <header class="header">
+                <h1>Dashboard Overview</h1>
+                <p class="user-greeting">Welcome back! Here's what's happening with your project today.</p>
+            </header>
+
+            <!-- Summary Cards Section -->
+            <section class="cards-grid">
+                <div class="card">
+                    <h3>Active Tasks</h3>
+                    <p class="card-value">12</p>
+                    <span class="card-note">4 due this week</span>
+                </div>
+                <div class="card">
+                    <h3>Total Expenses</h3>
+                    <p class="card-value">$1,240</p>
+                    <span class="card-note">Within monthly budget</span>
+                </div>
+                <div class="card">
+                    <h3>Upcoming Events</h3>
+                    <p class="card-value">3</p>
+                    <span class="card-note">Next: Team Sync at 2 PM</span>
+                </div>
+            </section>
+
+            <!-- Content Split Section (Recent Activity & Quick Actions) -->
+            <div class="content-split">
+                
+                <!-- Recent Activity Feed -->
+                <section class="panel recent-activity">
+                    <h2>Recent Activity</h2>
+                    <ul>
+                        <li>
+                            <span class="dot"></span>
+                            <div>
+                                <p class="activity-text">Added new expense for domain renewal</p>
+                                <span class="activity-time">2 hours ago</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="dot"></span>
+                            <div>
+                                <p class="activity-text">Scheduled milestone review meeting</p>
+                                <span class="activity-time">Yesterday</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="dot"></span>
+                            <div>
+                                <p class="activity-text">Updated project scope in summary</p>
+                                <span class="activity-time">3 days ago</span>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <!-- Quick Actions Panel -->
+                <section class="panel quick-actions">
+                    <h2>Quick Actions</h2>
+                    <div class="action-buttons">
+                        <a href="Expenses.html" class="btn">+ Add Expense</a>
+                        <a href="Schedule.html" class="btn">+ Schedule Event</a>
+                        <a href="Summary.html" class="btn">Generate Report</a>
+                    </div>
+                </section>
+
+            </div>
+
+        </main>
+    </div>
+</body>
+</html>
